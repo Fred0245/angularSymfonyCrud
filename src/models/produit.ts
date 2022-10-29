@@ -12,7 +12,7 @@ export class Produits
   categorie : Categorie;
 
 
-  public constructor(code:string, libelle:string,prix:number, quantite:number,description: string, image:string){
+  public constructor(){
 
     this.code = '';
     this.libelle ='';
